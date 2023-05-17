@@ -1,0 +1,146 @@
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  /* .fixed-header{
+        padding: 2rem;
+    } */
+}
+@media (max-width: 768px) {
+  .navbar__list {
+    position: absolute;
+    top: -500px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 4px 4px rgb(14 55 54 / 114%);
+    border-top: 2px solid #ccc;
+    transition: 0.2s;
+    text-align: left;
+    transition: 0.75s ease-in-out;
+  }
+  .navbar__link {
+    border: 1px solid #ccc;
+    border-left: 3px solid red;
+    margin: 5px 10px;
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: #000;
+    display: block;
+  }
+
+  .navbar__list.active {
+    top: 100%;
+  }
+  #header__menu-mobile {
+    display: block;
+    font-size: 3rem;
+    padding: 4px 8px;
+    position: absolute;
+    right: 16px;
+  }
+  .hero {
+    padding: 28px 0 100px;
+    margin-top: 0;
+  }
+  .hero__inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__img {
+    display: flex;
+    margin-top: 50px;
+    width: 250px;
+  }
+  .hero__content {
+    width: 300px;
+  }
+  .hero__desc {
+    width: 300px;
+  }
+  .special {
+    padding-top: 0;
+  }
+  .special__row {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+  }
+  .special__item {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+  }
+  .popular {
+    padding-top: 0;
+  }
+  .popular__row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .popular__item {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .popular-item__img {
+    width: 100%;
+  }
+  .works {
+    padding: 0;
+    display: flex;
+  }
+  .works__list {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .gallery {
+    padding: 0;
+  }
+  .gallery__img-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .review{
+    padding: 0;
+    margin-top: 74px;
+  }
+  .review__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .order{
+    padding: 0;
+  }
+  .order__inner {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .order__form-row {
+    row-gap: 20px;
+    
+    display: flex;
+    flex-direction: column;
+  }
+  .order__form-input {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .order__form-textarea {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

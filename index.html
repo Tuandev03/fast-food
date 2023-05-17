@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast food</title>
+    <!-- Favicon css -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/favicon/ms-icon-144x144.png"
+    />
+    <!-- Fonts awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/reset.css" />
+    <!-- Reset css -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- Responsive css -->
+
+    <link rel="stylesheet" href="assets/responsive.css" />
+
+    <!-- Fonts css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Head -->
+    <header   class="fixed-header">
+      <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+          <!-- Logo -->
+          <img src="./assets/imgs/2776827.png" alt="" class="logo" />
+          <div
+            id="header__menu-mobile"
+            class="header__menu-icon fa-solid fa-bars"
+          ></div>
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#special" class="navbar__link">Special</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#popular" class="navbar__link">Popular</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#gallery" class="navbar__link">Gallery</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#review" class="navbar__link">Review</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#order" class="navbar__link">Order</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section   class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <h1 class="hero__heading">Food Made With Love</h1>
+            <p class="hero__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+              mollitia pariatur! Animi aspernatur sint voluptates voluptatibus
+              nemo id rem illum consectetur, maxime unde? Debitis ducimus
+              laudantium doloremque fuga veritatis aut.
+            </p>
+            <a href="#!" class="btn hero__link">Order Now</a>
+          </div>
+          <figure class="hero__img-wrap">
+            <img src="./assets/imgs/hero-img.png" alt="" class="hero__img" />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- Main -->
+    <main>
+      <!-- special -->
+      <section id="special" class="special">
+        <div class="container">
+          <h2 class="section__heading">Our <span>Special</span> Dishes</h2>
+          <div class="special__body">
+            <!-- row-1 -->
+            <div class="special__row">
+              <!-- item-1 -->
+              <article class="special__item">
+                <img
+                  src="./assets/imgs/special-burger.png"
+                  alt=""
+                  class="special-item__img"
+                />
+                <h3 class="special-item__heading">Tasty Burger</h3>
+                <p class="special-item__desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Optio repellendus doloribus nobis earum fugiat laudantium
+                  porro dolor suscipit sit excepturi.
+                </p>
+              </article>
+              <!-- item-2 -->
+              <article class="special__item">
+                <img
+                  src="./assets/imgs/special-pizza.png"
+                  alt=""
+                  class="special-item__img"
+                />
+                <h3 class="special-item__heading">Tasty Pizza</h3>
+                <p class="special-item__desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Optio repellendus doloribus nobis earum fugiat laudantium
+                  porro dolor suscipit sit excepturi.
+                </p>
+              </article>
+              <!-- item-3 -->
+              <article class="special__item">
+                <img
+                  src="./assets/imgs/special-cream.png"
+                  alt=""
+                  class="special-item__img"
+                />
+                <h3 class="special-item__heading">Cold Ice-Cream</h3>
+                <p class="special-item__desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Optio repellendus doloribus nobis earum fugiat laudantium
+                  porro dolor suscipit sit excepturi.
+                </p>
+              </article>
+            </div>
+            <!-- row-2 -->
+            <div class="special__row">
+              <!-- item-4 -->
+              <article class="special__item">
+                <img
+                  src="./assets/imgs/special-drink.png"
+                  alt=""
+                  class="special-item__img"
+                />
+                <h3 class="special-item__heading">Cold Drinks</h3>
+                <p class="special-item__desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Optio repellendus doloribus nobis earum fugiat laudantium
+                  porro dolor suscipit sit excepturi.
+                </p>
+              </article>
+              <!-- item-5 -->
+              <article class="special__item">
+                <img
+                  src="./assets/imgs/special-cake.png"
+                  alt=""
+                  class="special-item__img"
+                />
+                <h3 class="special-item__heading">Tasty Sweets</h3>
+                <p class="special-item__desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Optio repellendus doloribus nobis earum fugiat laudantium
+                  porro dolor suscipit sit excepturi.
+                </p>
+              </article>
+              <!-- item-6 -->
+              <article class="special__item">
+                <img
+                  src="./assets/imgs/special-breakfast.png"
+                  alt=""
+                  class="special-item__img"
+                />
+                <h3 class="special-item__heading">Healthy Breakfast</h3>
+                <p class="special-item__desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Optio repellendus doloribus nobis earum fugiat laudantium
+                  porro dolor suscipit sit excepturi.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular" id="popular">
+        <div class="container">
+          <h2 class="section__heading">Most <span>Popular</span> Foods</h2>
+
+          <div class="popular__body">
+            <!-- row-1 -->
+            <div class="popular__row">
+              <!-- item-1 -->
+              <div class="popular__item">
+                <img
+                  src="./assets/imgs/popular-burger.jpg"
+                  alt=""
+                  class="popular-item__img"
+                />
+                <h3 class="popular-item__heading">Tasty Burger</h3>
+                <ul class="popular-item__list">
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="fa-regular fa-star"></i>
+                  </li>
+                </ul>
+                <a href="#!" class="btn popular__link">Order Now</a>
+              </div>
+              <!-- item-2 -->
+              <div class="popular__item">
+                <img
+                  src="./assets/imgs/popular-cake.jpg"
+                  alt=""
+                  class="popular-item__img"
+                />
+                <h3 class="popular-item__heading">Tasty Cake</h3>
+                <ul class="popular-item__list">
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="fa-regular fa-star"></i>
+                  </li>
+                </ul>
+                <a href="#!" class="btn popular__link">Order Now</a>
+              </div>
+              <!-- item-3 -->
+              <div class="popular__item">
+                <img
+                  src="./assets/imgs/popular-sweets.jpg"
+                  alt=""
+                  class="popular-item__img"
+                />
+                <h3 class="popular-item__heading">Tasty Sweets</h3>
+                <ul class="popular-item__list">
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="fa-regular fa-star"></i>
+                  </li>
+                </ul>
+                <a href="#!" class="btn popular__link">Order Now</a>
+              </div>
+            </div>
+            <!-- row-2 -->
+            <div class="popular__row">
+              <!-- item-4 -->
+              <div class="popular__item">
+                <img
+                  src="./assets/imgs/popular-cupcake.jpg"
+                  alt=""
+                  class="popular-item__img"
+                />
+                <h3 class="popular-item__heading">Tasty Cupcake</h3>
+                <ul class="popular-item__list">
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="fa-regular fa-star"></i>
+                  </li>
+                </ul>
+                <a href="#!" class="btn popular__link">Order Now</a>
+              </div>
+              <!-- item-5 -->
+              <div class="popular__item">
+                <img
+                  src="./assets/imgs/popular-drink.jpg"
+                  alt=""
+                  class="popular-item__img"
+                />
+                <h3 class="popular-item__heading">Cold Drink</h3>
+                <ul class="popular-item__list">
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="fa-regular fa-star"></i>
+                  </li>
+                </ul>
+                <a href="#!" class="btn popular__link">Order Now</a>
+              </div>
+              <!-- item-6 -->
+              <div class="popular__item">
+                <img
+                  src="./assets/imgs/popular-cream.jpg"
+                  alt=""
+                  class="popular-item__img"
+                />
+                <h3 class="popular-item__heading">Cold Ice-Cream</h3>
+                <ul class="popular-item__list">
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="popular-item__icon fa-sharp fa-solid fa-star"></i>
+                  </li>
+                  <li class="popular-item__rate">
+                    <i class="fa-regular fa-star"></i>
+                  </li>
+                </ul>
+                <a href="#!" class="popular__link">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Works -->
+      <section class="works" id="works">
+        <div class="container">
+          <div class="works__list">
+            <!-- Item-1 -->
+            <article class="works-item">
+              <figure class="works-item__img-wrap">
+                <img
+                  src="assets/imgs/works-1.png"
+                  alt=""
+                  class="works-item__img"
+                />
+                <h3 class="works-item__heading">Choose Your Favorite Food</h3>
+              </figure>
+            </article>
+            <!-- Item-2 -->
+            <article class="works-item">
+              <figure class="works-item__img-wrap">
+                <img
+                  src="assets/imgs/works-2.png"
+                  alt=""
+                  class="works-item__img"
+                />
+                <h3 class="works-item__heading">Free And Fast Delivery</h3>
+              </figure>
+            </article>
+            <!-- Item-3 -->
+            <article class="works-item">
+              <figure class="works-item__img-wrap">
+                <img
+                  src="assets/imgs/works-3.png"
+                  alt=""
+                  class="works-item__img"
+                />
+                <h3 class="works-item__heading">Easy Payment Methods</h3>
+              </figure>
+            </article>
+            <!-- Item-4 -->
+            <article class="works-item">
+              <figure class="works-item__img-wrap">
+                <img
+                  src="assets/imgs/works-4.png"
+                  alt=""
+                  class="works-item__img"
+                />
+                <h3 class="works-item__heading">
+                  And Finally, Enjoy Your Food
+                </h3>
+              </figure>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery -->
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <h2 class="section__heading">Our Food <span>Gallery</span></h2>
+          <figure class="gallery__img-wrap">
+            <!-- row-1 -->
+            <div class="gallery__img-row">
+              <img
+                src="./assets/imgs/popular-burger.jpg"
+                alt=""
+                class="gallery__img"
+              />
+              <img
+                src="./assets/imgs/gallery-2.jpg"
+                alt=""
+                class="gallery__img"
+              />
+              <img
+                src="./assets/imgs/gallery-3.jpg"
+                alt=""
+                class="gallery__img"
+              />
+            </div>
+            <!-- row-2 -->
+            <div class="gallery__img-row">
+              <img
+                src="./assets/imgs/gallery-4.jpg"
+                alt=""
+                class="gallery__img"
+              />
+              <img
+                src="./assets/imgs/gallery-5.jpg"
+                alt=""
+                class="gallery__img"
+              />
+              <img
+                src="./assets/imgs/gallery-6.jpg"
+                alt=""
+                class="gallery__img"
+              />
+            </div>
+          </figure>
+        </div>
+      </section>
+      <!-- Review -->
+      <section class="review" id="review">
+        <div class="container">
+          <div class="review__list">
+            <!-- item-1 -->
+            <article class="review-item">
+              <figure class="review-item__img-wrap">
+                <img
+                  src="./assets/imgs/review-1.jpg"
+                  alt=""
+                  class="review__img"
+                />
+              </figure>
+              <h3 class="review__heading">John Deo</h3>
+              <ul class="review-item__list">
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="fa-regular fa-star"></i>
+                </li>
+              </ul>
+              <p class="review__desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                nostrum dolores consectetur enim amet quisquam provident rem
+                voluptates deserunt architecto.
+              </p>
+            </article>
+            <!-- item-2 -->
+            <article class="review-item">
+              <figure class="review-item__img-wrap">
+                <img
+                  src="./assets/imgs/review-2.jpg"
+                  alt=""
+                  class="review__img"
+                />
+              </figure>
+              <h3 class="review__heading">John Deo</h3>
+              <ul class="review-item__list">
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="fa-regular fa-star"></i>
+                </li>
+              </ul>
+              <p class="review__desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                nostrum dolores consectetur enim amet quisquam provident rem
+                voluptates deserunt architecto.
+              </p>
+            </article>
+            <!-- item-3 -->
+            <article class="review-item">
+              <figure class="review-item__img-wrap">
+                <img
+                  src="./assets/imgs/review-3.jpg"
+                  alt=""
+                  class="review__img"
+                />
+              </figure>
+              <h3 class="review__heading">John Deo</h3>
+              <ul class="review-item__list">
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="review-item__icon fa-sharp fa-solid fa-star"></i>
+                </li>
+                <li class="review-item__rate">
+                  <i class="fa-regular fa-star"></i>
+                </li>
+              </ul>
+              <p class="review__desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                nostrum dolores consectetur enim amet quisquam provident rem
+                voluptates deserunt architecto.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Order -->
+      <section class="order" id="order">
+        <div class="container">
+          <h2 class="section__heading"><span>Order</span> Now</h2>
+          <div class="order__inner">
+            <figure class="order__img-wrap">
+              <img
+                src="./assets/imgs/order-img.jpg"
+                alt=""
+                class="order__img"
+              />
+            </figure>
+            <div class="order__form">
+              <form action="" class="" autocomplete="off">
+                <div class="order__form-row">
+                  <input
+                    class="order__form-input"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="name"
+                  />
+                  <input
+                    class="order__form-input"
+                    type="email"
+                    name=""
+                    id=""
+                    placeholder="email"
+                  />
+                </div>
+                <div class="order__form-row">
+                  <input
+                    class="order__form-input"
+                    type="tel"
+                    name=""
+                    id=""
+                    placeholder="phone"
+                  />
+                  <input
+                    class="order__form-input"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="food name"
+                  />
+                </div>
+                <textarea
+                  class="order__form-textarea"
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="address"
+                ></textarea>
+              </form>
+              <a href="" class="order__btn btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer-item">
+            <a href="#!" class="footer-item__link"> Facebook </a>
+          </li>
+          <li class="footer-item">
+            <a href="#!" class="footer-item__link"> Linkedin</a>
+          </li>
+          <li class="footer-item">
+            <a href="#!" class="footer-item__link">Instagram </a>
+          </li>
+          <li class="footer-item">
+            <a href="#!" class="footer-item__link"> Twitter</a>
+          </li>
+        </ul>
+        <p class="footer__desc">Created By .... | All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
