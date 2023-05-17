@@ -83,15 +83,13 @@ body {
   width: 54px;
 }
 #header__menu-mobile {
- 
   font-size: 3rem;
   cursor: pointer;
   color: #666;
   border: 1px solid #666;
-  border-radius:3px;
+  border-radius: 3px;
   padding: 5px 15px;
-display: none;
-
+  display: none;
 }
 .navbar {
   display: flex;
@@ -298,8 +296,7 @@ display: none;
   margin-top: 54px;
   text-align: center;
 }
-.gallery__img-wrap {
-}
+
 .gallery__img-row {
   display: flex;
   column-gap: 20px;
@@ -321,10 +318,12 @@ display: none;
 }
 /* Review */
 .review {
+  text-align: center;
   padding-top: 150px;
   margin-top: 54px;
 }
 .review-item {
+ margin: 60px auto 0 auto;
   border: 10px solid #fff;
   padding: 20px;
   text-align: center;
